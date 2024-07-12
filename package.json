@@ -1,0 +1,26 @@
+{
+  "name": "@n7.io/nitrogen-aio-nextjs-loader",
+  "version": "1.0.0",
+  "description": "Nitrogen AIO Image Loader for Next.js framework",
+  "main": "aio-loader.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n7-io/nitrogen-aio-nextjs-loader.git"
+  },
+  "keywords": [
+    "Nitrogen",
+    "CDN",
+    "The",
+    "Nitrogen",
+    "Platform",
+    "AIO",
+    "Image",
+    "Optimizer",
+    "Next.js"
+  ],
+  "author": "Chandan Pasunoori <chandanpasunoori@gmail.com>",
+  "license": "ISC"
+}
