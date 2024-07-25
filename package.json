@@ -1,6 +1,6 @@
 {
   "name": "@n7.io/nitrogen-aio-nextjs-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nitrogen AIO Image Loader for Next.js framework",
   "main": "aio-loader.js",
   "scripts": {

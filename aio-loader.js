@@ -1,13 +1,13 @@
-'use client'
+"use client";
 
 export default function aioLoader({ src, width, quality }) {
-  const url = new URL(src)
-  const params = url.searchParams
-  const aioParams = params.getAll('aio')
-  aioParams.push(`w-${width}`)
+  const aioParams = [];
+  aioParams.push(`w-${width}`);
   if (quality) {
-    aioParams.push(`q-${quality.toString()}`)
+    aioParams.push(`q-${quality.toString()}`);
   }
-  params.set('aio', aioParams.join(';'))
-  return url.href
+  const joiner = src.indexOf("?") != -1 ? "&" : "?";
+  const params = [];
+  params.push(src, `aio=${aioParams.join(";")}`);
+  return params.join(joiner);
 }
